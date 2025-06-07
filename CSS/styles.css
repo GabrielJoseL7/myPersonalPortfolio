@@ -551,7 +551,7 @@ footer{
   font-weight: 200;
 }
 
-@media(max-width: 360px){
+@media(max-width: 425px){
   body{
     width: 100%;
   }
