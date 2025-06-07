@@ -72,11 +72,11 @@ body{
   height: 55px;
   border-radius: 45px;
   border: none;
-  background-color: rgb(151, 95, 255);
+  background-color: #fca311;
   color: white;
-  box-shadow: 0px 10px 10px rgb(210, 187, 253) inset,
+  box-shadow: 0px 10px 10px #ffc569 inset,
   0px 5px 10px rgba(5, 5, 5, 0.212),
-  0px -10px 10px rgb(124, 54, 255) inset;
+  0px -10px 10px #fca311 inset;
   cursor: pointer;
   display: flex;
   align-items: center;
@@ -152,7 +152,7 @@ nav{
     margin: auto 20px;
 }
 
-ul{
+nav ul{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -163,7 +163,7 @@ ul{
     gap: 30px;
 }
 
-li{
+nav ul li{
     list-style: none;
     font-family: "Orbitron", sans-serif;
     font-size: 1.5vw;
@@ -303,9 +303,13 @@ section{
     gap: 25px;
     justify-content: center;
     align-content: center;
-    cursor: pointer;
     margin: auto 0;
     padding-top: 100px;  
+}
+
+.titleSkill{
+  cursor: pointer;
+  margin: 0;
 }
 
 .rectangle{
@@ -323,24 +327,227 @@ section{
 .SkillContainer1{
     width: 100%;
     height: 100%;
-    display: flex;
+    /* display: flex; */
     justify-content: space-evenly;
     gap: 20px;
     flex-wrap: wrap;
     align-content: center;
-}
+    display: none;
+  }
 
 .skill{
     width: 240px;
-    height: 90px;
+    height: 60px;
     background-color: #D9D9D9;
     border: 1px solid #14213D;
     border-radius: 16px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .SkillBoxText1{
     font-family: "Over the Rainbow", cursive;
-    font-weight: 800;
+    font-weight: 650;
     font-size: 1vw;
+}
+
+.SkillBoxText3{
+   font-family: "Orelega One", serif;
+   color: white;
+}
+
+.SkillBoxTitle{
+  width: 100%;
+  height: 25%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.SkillBoxText2{
+  width: 35px;
+  height: 25px;
+  background-color: #14213D;
+  border-radius: 31px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.bars{
+  width: 23%;
+  height: 15px;
+  border-radius: 31px;
+  background-color: #14213D;
+}
+
+.SkillBoxbars{
+  width: 100%;
+  height: 75%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.EducationContainer{
+    width: 100%;
+    height: 100%;
+    margin-top: -50px;
+}
+
+.EducationContainer ul{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.EducationContainer ul li{
+  font-size: 40px;
+}
+
+.educationText{
+    font-family: "Orbitron", sans-serif;
+    font-size: 35px;
+}
+
+.EducationContainer ul li ul li{
+  font-family: "Orelega One", serif;
+  font-size: 35px;
+}
+
+.ProjectsSection{
+    width: 100%;
+    height: 865px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.projectContainers{
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0 auto;
+  border: 1px solid #14213D;
+  border-radius: 31px;
+}
+
+.SkillTitleContainer2{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.title1{
+    width: 100%;
+    height: 30%;
+    font-family: "Orbitron", sans-serif;
+    font-size: 1.5vw;
+    color: #14213D;
+    text-align: center;
+}
+
+.CardsContainer{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+}
+
+.ContactSection{
+    width: 100%;
+    height: 865px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ContactContainer{
+  width: 20%;
+  height: 60%;
+  border: 3.5px solid #14213D;
+  border-radius: 31px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+}
+
+.formContainer{
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.contactTitle{
+  width: 100%;
+  height: 50px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Over the Rainbow", cursive;
+  font-size: xx-large;
+  font-weight: 600;
+}
+
+.barCrossing{
+  width: 100%;
+  height: 3px;
+  background-color: #14213D;
+}
+
+.formContainer p{
+  font-family: "Orelega One", serif;
+  font-size: large;
+  padding: 10px;
+}
+
+form{
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 20px 0;
+  justify-content: center;
+  align-items: center;
+}
+
+input, textarea{
+  width: 80%;
+  border: 2.5px solid #14213D;
+  border-radius: 15px;
+  padding: 5px;
+  font-family: "Over the Rainbow", cursive;
+}
+
+footer{
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footerContainer{
+  width: 80%;
+  height: 100%;
+  border: 1px solid #14213D;
+  text-align: center;
+  font-family: "Over the Rainbow", cursive;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 200;
 }
