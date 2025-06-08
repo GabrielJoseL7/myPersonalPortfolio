@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Jose Gabriel | Full Stack Dev - Graphic Designer</title>
     <link rel="stylesheet" href="CSS/styles.css">
+    <link rel="stylesheet" href="CSS/burgerMenu.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400..900&family=Orelega+One&family=Over+the+Rainbow&display=swap');
     </style>
@@ -13,15 +14,20 @@
 <header>
     <nav>
         <ul>
-            <li><a href="">Home</a></li>
-            <li><a href="">About Me</a></li>
-            <li><a href="">Projects</a></li>
-            <li><a href="">Contact</a></li>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#contact">Contact</a></li>
         </ul>
+        <div class="hamburguesa">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>        
     </nav>
 </header>
 <main>
-<section class="landingSection">
+<section class="landingSection" id="home">
     <div class="header finisher-header" style="width: 100%; height: 100%;">
         <div class="TextLandingSection">
                 <div class="myName">Jose</div>
@@ -31,28 +37,28 @@
         </div>
         <div class="graphicsContainer1">
             <div class="containerArrow">
-                <a href="">
+                <a href="#about">
                     <img src="Assets/ICONS/right-arrow.png" alt="" class="arrow">
                 </a>
             </div>
             <div class="ContainerSocialNetwork">
-                <a href="">
+                <a href="https://www.instagram.com/itsjose7_devv/profilecard/?igsh=ZWU3empvanM1c2lj">
                     <img src="Assets/ICONS/instagram.png" alt="" class="socialNetwork">
                 </a>
-                <a href="">
+                <a href="https://github.com/GabrielJoseL7">
                     <img src="Assets/ICONS/github.png" alt="" class="socialNetwork">
                 </a>
-                <a href="">
+                <a href="https://www.linkedin.com/in/jose-gabriel-326940284/">
                     <img src="Assets/ICONS/linkedin.png" alt="" class="socialNetwork">
                 </a>
-                <a href="">
+                <a href="https://www.behance.net/joselugabriel">
                     <img src="Assets/ICONS/behance.png" alt="" class="socialNetwork">
                 </a>
             </div>
         </div>
     </div>
 </section>
-<section class="AboutMeSection">
+<section class="AboutMeSection" id="about">
     <div class="AboutContainer">
         <div class="imgContainer">
             <img src="Assets/IMG/ChatGPT Image Jun 6, 2025, 02_05_04 AM.png" alt="" class="AboutImg">
@@ -225,7 +231,7 @@
         </div>
     </div>
 </section>
-<section class="ProjectsSection">
+<section class="ProjectsSection" id="projects">
     <div class="projectContainers">
         <div class="SkillTitleContainer2">
             <div class="title1">Web Design</div>
@@ -295,7 +301,7 @@
         </div>
     </div>
 </section>
-<section class="ContactSection">
+<section class="ContactSection" id="contact">
     <div class="ContactContainer">
         <div class="formContainer">
             <div class="contactTitle">Contact Me</div>
@@ -357,5 +363,6 @@ new FinisherHeader({
   ]
 });
 </script>
+<script src="js/script.js"></script>
 </body>
 </html>

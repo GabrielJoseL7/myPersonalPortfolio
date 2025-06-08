@@ -1,0 +1,37 @@
+.hamburguesa{
+    display: none;
+    flex-direction: column;
+    cursor: pointer;
+}
+
+.hamburguesa span{
+    background: black;
+    height: 4px;
+    width: 25px;
+    margin: 4px
+}
+
+@media(max-width: 600px){
+    nav ul{
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 60px;
+        right: 10px;
+        width: 150px;
+        padding: 20px;
+        border-radius: 8px;
+    }
+    .hamburguesa{
+        display: flex;
+        position: absolute;
+        right: 0;
+    }
+    nav ul.verMenu{
+        display:flex;
+    }
+    nav ul.verMenu{
+        display:flex;
+        color: white;
+    }
+}
