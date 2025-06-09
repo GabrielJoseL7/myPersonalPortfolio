@@ -14,10 +14,10 @@
 <header>
     <nav>
         <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#about">About Me</a></li>
-            <li><a href="#projects">Projects</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li class="nav"><a href="#home">Home</a></li>
+            <li class="nav"><a href="#about">About Me</a></li>
+            <li class="nav"><a href="#projects">Projects</a></li>
+            <li class="nav"><a href="#contact">Contact</a></li>
         </ul>
         <div class="hamburguesa">
             <span></span>
@@ -66,11 +66,11 @@
         <div class="SkillContainer">
             <div class="SkillsMainContainer">
                 <div class="SkillTitleContainer">
-                    <div class="titleSkill">
+                    <div class="titleSkill" id="skills">
                         Skills
                         <div class="rectangle"></div>
                     </div>
-                    <div class="titleSkill">Education
+                    <div class="titleSkill" id="Education">Education
                         <div class="rectangle"></div>
                     </div>
                     <div class="titleSkill">
@@ -79,7 +79,7 @@
                     </div>
                 </div>
                 <div class="containerSkills">
-                    <div class="SkillContainer1">
+                    <div class="SkillContainer1" id="skillContainer">
                         <div class="skill">
                             <div class="SkillBoxTitle">
                                 <div class="SkillBoxText1">HTML</div>
@@ -88,10 +88,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -102,10 +102,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -116,10 +116,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -130,10 +130,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -144,10 +144,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -158,10 +158,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -172,10 +172,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>
                         <div class="skill">
@@ -186,10 +186,10 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
                         </div>      
                         <div class="skill">
@@ -200,14 +200,14 @@
                                 </div>
                             </div>
                             <div class="SkillBoxbars">
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
-                                <div class="bars"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars colored"></div>
+                                <div class="bars outlied"></div>
                             </div>
-                        </div>                                                                                                                
+                        </div>                                                                                                              
                     </div>
-                    <div class="EducationContainer">
+                    <div class="EducationContainer" id="educationContainer">
                         <ul>
                             <li>
                                 <ul>
@@ -363,6 +363,12 @@ new FinisherHeader({
   ]
 });
 </script>
-<script src="js/script.js"></script>
+<script src="https://unpkg.com/split-type"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/gsap.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrambleTextPlugin.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/gsap@3.13.0/dist/ScrollTrigger.min.js"></script>
+<script src="js/animations.js"></script>
+<script src="js/addOns.js"></script>
+<script src="js/burgerMenu.js"></script>
 </body>
 </html>
