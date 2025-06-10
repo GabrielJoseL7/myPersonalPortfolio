@@ -61,7 +61,6 @@ gsap.registerPlugin(ScrollTrigger);
 gsap.from(".imgContainer",{
     scrollTrigger: {
         trigger: ".AboutMeSection",
-        markers: true,
         start: "top 90%",
         end: "bottom 10%",
         toggleActions: "play reverse reverse play",
@@ -74,7 +73,6 @@ gsap.from(".imgContainer",{
 gsap.from(".SkillsMainContainer",{
     scrollTrigger: {
         trigger: ".AboutMeSection",
-        markers: true,
         start: "top 89%",
         end: "bottom 10%",
         toggleActions: "play reverse reverse play",
@@ -87,7 +85,6 @@ gsap.from(".SkillsMainContainer",{
 gsap.from(".SkillTitleContainer2",{
     scrollTrigger: {
         trigger: ".ProjectsSection",
-        markers: true,
         start: "top 89%",
         end: "bottom 10%",
         toggleActions: "play reverse reverse play",
@@ -103,7 +100,6 @@ gsap.from(".SkillTitleContainer2",{
 gsap.from(".ContactContainer",{
     scrollTrigger: {
         trigger: ".ContactSection",
-        markers: true,
         start: "top 89%",
         end: "bottom 10%",
         toggleActions: "play reverse reverse play",
